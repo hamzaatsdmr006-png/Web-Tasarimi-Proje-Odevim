@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Türk Traktör – Hakkımızda</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- SABİT UYARI BANDI -->
+  <div class="uyari-bandi">
+    <p>Bu site Web Tasarım dersi kapsamında yapılmıştır ve sitedeki bilgilerin geçerliliği yoktur.</p>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TT</div>
+        <div class="logo-text">
+          <span class="ust">Türk Traktör</span>
+          <span class="alt">ve Ziraat Makinaları A.Ş.</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="hakkimizda.html" class="aktif">Hakkımızda</a></li>
+          <li><a href="urunler.html">Ürünler</a></li>
+          <li><a href="kurumsal.html">Kurumsal</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBİL MENÜ -->
+  <nav class="mobil-menu" id="mobil-menu">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="urunler.html">Ürünler</a>
+    <a href="kurumsal.html">Kurumsal</a>
+    <a href="iletisim.html">İletişim</a>
+  </nav>
+
+  <!-- SAYFA BAŞLIĞI -->
+  <div class="sayfa-baslik">
+    <h1>Hakkımızda</h1>
+    <p>Tarımın kalbinde, 70 yılı aşkın deneyimle</p>
+    <div class="breadcrumb">
+      <a href="index.html">Ana Sayfa</a>
+      <span>›</span>
+      <span>Hakkımızda</span>
+    </div>
+  </div>
+
+  <!-- BÖLÜM: MİSYON VİZYON -->
+  <section class="bolum">
+    <div class="container">
+      <div class="iki-sutun">
+        <div class="gorsel-kutu">
+          <span>🚜</span>
+        </div>
+        <div class="metin-kutu">
+          <span class="ust-etiket">Kuruluşumuz</span>
+          <h2>Türk Tarımının<br />Güvenilir Ortağı</h2>
+          <p>Türk Traktör ve Ziraat Makinaları A.Ş., 1954 yılında Türkiye'de tarım makinaları üretimini yerli sanayiye kazandırmak amacıyla kurulmuştur. Kuruluşumuzdan bu yana tarımsal mekanizasyonun öncüsü olarak Türk çiftçisinin yanında yer alıyoruz.</p>
+          <p>Ankara Kazan'daki entegre üretim tesislerimizde Case IH ve New Holland markaları altında traktör ve tarım ekipmanları üretmekte; bu ürünleri Türkiye pazarına ve dünyaya 60'ı aşkın ülkeye sunmaktayız.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MİSYON / VİZYON / DEĞERLER (SEKMELER - JS) -->
+  <section class="bolum bolum-gri">
+    <div class="container">
+      <div class="bolum-baslik merkez">
+        <span class="ust-etiket">Biz Kimiz</span>
+        <h2>Misyon, Vizyon ve Değerlerimiz</h2>
+      </div>
+
+      <div class="sekme-nav">
+        <button class="sekme-btn aktif" data-sekme="misyon">Misyonumuz</button>
+        <button class="sekme-btn" data-sekme="vizyon">Vizyonumuz</button>
+        <button class="sekme-btn" data-sekme="degerler">Değerlerimiz</button>
+      </div>
+
+      <div id="sekme-misyon" class="sekme-panel aktif">
+        <div class="iki-sutun" style="gap:40px">
+          <div>
+            <h3 style="font-family:var(--font-baslik);font-size:22px;text-transform:uppercase;margin-bottom:14px;">Misyonumuz</h3>
+            <p style="font-size:15px;color:var(--gri-orta);line-height:1.8;margin-bottom:12px;">Türkiye'nin tarımsal kalkınmasına katkıda bulunmak; çiftçilerimize güvenilir, verimli ve ekonomik tarım makinaları sunarak onların yaşam kalitesini ve üretkenliğini artırmak.</p>
+            <p style="font-size:15px;color:var(--gri-orta);line-height:1.8;">Üretimde yüksek kalite standartlarını korurken çevre duyarlılığına sahip, sürdürülebilir bir sanayi kuruluşu olmak.</p>
+          </div>
+          <div style="background:var(--beyaz);padding:32px;border-left:4px solid var(--kirmizi);">
+            <p style="font-family:var(--font-baslik);font-size:20px;color:var(--antrasit);line-height:1.5;">"Toprağı işleyen eller güçlüdür; onları güçlü kılan araçlar ise bizim sorumluluk alanımızdır."</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="sekme-vizyon" class="sekme-panel">
+        <div class="iki-sutun" style="gap:40px">
+          <div>
+            <h3 style="font-family:var(--font-baslik);font-size:22px;text-transform:uppercase;margin-bottom:14px;">Vizyonumuz</h3>
+            <p style="font-size:15px;color:var(--gri-orta);line-height:1.8;margin-bottom:12px;">Tarım makinaları sektöründe Türkiye'nin en büyük, Avrupa'nın sayılı üreticileri arasında yer alan, inovasyon odaklı ve küresel ölçekte saygın bir marka olmak.</p>
+            <p style="font-size:15px;color:var(--gri-orta);line-height:1.8;">2030 yılına kadar tam elektrifikasyon ve otonom sürüş teknolojilerini ürünlerine entegre eden lider bir tarım teknolojisi şirketi konumuna gelmek.</p>
+          </div>
+          <div style="background:var(--beyaz);padding:32px;border-left:4px solid var(--kirmizi);">
+            <p style="font-family:var(--font-baslik);font-size:20px;color:var(--antrasit);line-height:1.5;">"Geleceğin çiftçisine bugünden hazırlandığımız teknolojiyi sunmak."</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="sekme-degerler" class="sekme-panel">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;">
+          <div style="background:var(--beyaz);padding:28px;border-top:3px solid var(--kirmizi);">
+            <div style="font-size:32px;margin-bottom:12px;">🎯</div>
+            <h4 style="font-family:var(--font-baslik);font-size:16px;text-transform:uppercase;margin-bottom:8px;">Kalite</h4>
+            <p style="font-size:13px;color:var(--gri-orta);line-height:1.7;">Her ürünümüzde en yüksek standartları hedefliyor, ISO sertifikalı üretim süreçlerimizle kaliteyi güvence altına alıyoruz.</p>
+          </div>
+          <div style="background:var(--beyaz);padding:28px;border-top:3px solid var(--kirmizi);">
+            <div style="font-size:32px;margin-bottom:12px;">💡</div>
+            <h4 style="font-family:var(--font-baslik);font-size:16px;text-transform:uppercase;margin-bottom:8px;">İnovasyon</h4>
+            <p style="font-size:13px;color:var(--gri-orta);line-height:1.7;">Ar-Ge yatırımlarımızı sürekli artırarak dijital tarım ve akıllı traktör teknolojilerinde öncü rol üstleniyoruz.</p>
+          </div>
+          <div style="background:var(--beyaz);padding:28px;border-top:3px solid var(--kirmizi);">
+            <div style="font-size:32px;margin-bottom:12px;">🤝</div>
+            <h4 style="font-family:var(--font-baslik);font-size:16px;text-transform:uppercase;margin-bottom:8px;">Güven</h4>
+            <p style="font-size:13px;color:var(--gri-orta);line-height:1.7;">Çiftçilerimizle, iş ortaklarımızla ve toplumla kurduğumuz güvene dayalı ilişkiler bizi birbirimize bağlar.</p>
+          </div>
+          <div style="background:var(--beyaz);padding:28px;border-top:3px solid var(--kirmizi);">
+            <div style="font-size:32px;margin-bottom:12px;">🌿</div>
+            <h4 style="font-family:var(--font-baslik);font-size:16px;text-transform:uppercase;margin-bottom:8px;">Sürdürülebilirlik</h4>
+            <p style="font-size:13px;color:var(--gri-orta);line-height:1.7;">Çevreyi korurken verimlilik sağlayan çözümler üretmeyi ve gelecek nesillere yeşil bir dünya bırakmayı taahhüt ediyoruz.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EKİP -->
+  <section class="bolum">
+    <div class="container">
+      <div class="bolum-baslik merkez">
+        <span class="ust-etiket">Yönetim</span>
+        <h2>Liderlik Kadromuz</h2>
+        <p>Deneyimli ve vizyoner ekibimizle Türk tarımına hizmet etmeye devam ediyoruz.</p>
+      </div>
+
+      <div class="ekip-grid">
+        <div class="ekip-kart">
+          <div class="ekip-foto">AK</div>
+          <h4>Ahmet Kaya</h4>
+          <span>Genel Müdür</span>
+        </div>
+        <div class="ekip-kart">
+          <div class="ekip-foto">FD</div>
+          <h4>Fatma Demir</h4>
+          <span>Mali İşler Direktörü</span>
+        </div>
+        <div class="ekip-kart">
+          <div class="ekip-foto">MY</div>
+          <h4>Mehmet Yılmaz</h4>
+          <span>Üretim Direktörü</span>
+        </div>
+        <div class="ekip-kart">
+          <div class="ekip-foto">ZA</div>
+          <h4>Zeynep Arslan</h4>
+          <span>Ar-Ge Direktörü</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo footer-logo">
+            <div class="logo-icon">TT</div>
+            <div class="logo-text">
+              <span class="ust">Türk Traktör</span>
+              <span class="alt" style="color:#555">ve Ziraat Makinaları A.Ş.</span>
+            </div>
+          </a>
+          <p class="footer-aciklama">1954'ten bu yana Türkiye tarımının güvenilir gücü.</p>
+          <div class="footer-sosyal">
+            <a href="#" class="sosyal-btn">in</a>
+            <a href="#" class="sosyal-btn">fb</a>
+            <a href="#" class="sosyal-btn">tw</a>
+            <a href="#" class="sosyal-btn">yt</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-baslik">Hızlı Linkler</div>
+          <ul class="footer-linkler">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="urunler.html">Ürünler</a></li>
+            <li><a href="kurumsal.html">Kurumsal</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-baslik">Ürünler</div>
+          <ul class="footer-linkler">
+            <li><a href="urunler.html">Küçük Sınıf</a></li>
+            <li><a href="urunler.html">Orta Sınıf</a></li>
+            <li><a href="urunler.html">Büyük Sınıf</a></li>
+            <li><a href="urunler.html">Case IH Serisi</a></li>
+            <li><a href="urunler.html">New Holland Serisi</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-baslik">İletişim</div>
+          <ul class="footer-iletisim">
+            <li><span>📍</span><span>Kazan OSB, Ankara</span></li>
+            <li><span>📞</span><span>+90 (312) 812 10 00</span></li>
+            <li><span>✉</span><span>info@turktraktor.com.tr</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-alt">
+        <p>© 2025 Türk Traktör ve Ziraat Makinaları A.Ş. <em style="color:#444;font-size:11px;">(Eğitim amaçlıdır.)</em></p>
+        <div class="footer-alt-linkler">
+          <a href="#">Gizlilik</a>
+          <a href="#">Çerez</a>
+          <a href="#">KVKK</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

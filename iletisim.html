@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Türk Traktör – İletişim</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="uyari-bandi">
+    <p>Bu site Web Tasarım dersi kapsamında yapılmıştır ve sitedeki bilgilerin geçerliliği yoktur.</p>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TT</div>
+        <div class="logo-text">
+          <span class="ust">Türk Traktör</span>
+          <span class="alt">ve Ziraat Makinaları A.Ş.</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="urunler.html">Ürünler</a></li>
+          <li><a href="kurumsal.html">Kurumsal</a></li>
+          <li><a href="iletisim.html" class="aktif">İletişim</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobil-menu" id="mobil-menu">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="urunler.html">Ürünler</a>
+    <a href="kurumsal.html">Kurumsal</a>
+    <a href="iletisim.html">İletişim</a>
+  </nav>
+
+  <div class="sayfa-baslik">
+    <h1>İletişim</h1>
+    <p>Sorularınız için bize ulaşın</p>
+    <div class="breadcrumb">
+      <a href="index.html">Ana Sayfa</a>
+      <span>›</span>
+      <span>İletişim</span>
+    </div>
+  </div>
+
+  <!-- İLETİŞİM BÖLÜMÜ -->
+  <section class="bolum">
+    <div class="container">
+      <div class="iletisim-grid">
+
+        <!-- SOL: BİLGİLER -->
+        <div class="iletisim-bilgi">
+          <h3>Bize Ulaşın</h3>
+          <p style="font-size:14px;color:var(--gri-orta);line-height:1.7;margin-bottom:28px;">
+            Ürünlerimiz, bayilik başvurusu, yatırımcı ilişkileri veya genel sorularınız için aşağıdaki kanallardan bize ulaşabilirsiniz.
+          </p>
+
+          <div class="iletisim-satir">
+            <div class="iletisim-ikon">📍</div>
+            <div class="iletisim-satir-metin">
+              <strong>Adres</strong>
+              <span>Kazan OSB Mah. 1. Cadde No:1<br />06980 Kazan / Ankara, Türkiye</span>
+            </div>
+          </div>
+
+          <div class="iletisim-satir">
+            <div class="iletisim-ikon">📞</div>
+            <div class="iletisim-satir-metin">
+              <strong>Telefon</strong>
+              <span>+90 (312) 812 10 00</span>
+            </div>
+          </div>
+
+          <div class="iletisim-satir">
+            <div class="iletisim-ikon">📠</div>
+            <div class="iletisim-satir-metin">
+              <strong>Faks</strong>
+              <span>+90 (312) 812 10 99</span>
+            </div>
+          </div>
+
+          <div class="iletisim-satir">
+            <div class="iletisim-ikon">✉</div>
+            <div class="iletisim-satir-metin">
+              <strong>E-posta</strong>
+              <span>info@turktraktor.com.tr</span>
+            </div>
+          </div>
+
+          <div class="iletisim-satir">
+            <div class="iletisim-ikon">🕐</div>
+            <div class="iletisim-satir-metin">
+              <strong>Çalışma Saatleri</strong>
+              <span>Pazartesi – Cuma: 08:30 – 17:30<br />Cumartesi – Pazar: Kapalı</span>
+            </div>
+          </div>
+
+          <!-- HARİTA PLACEHOLDERi -->
+          <div style="margin-top:28px;background:var(--gri-acik);height:200px;display:flex;align-items:center;justify-content:center;border:1px solid var(--gri-border);position:relative;overflow:hidden;">
+            <div style="text-align:center;">
+              <div style="font-size:36px;margin-bottom:8px;">🗺️</div>
+              <p style="font-size:13px;color:var(--gri-orta);">Kazan / Ankara</p>
+            </div>
+            <div style="position:absolute;bottom:0;left:0;right:0;background:var(--kirmizi);height:3px;"></div>
+          </div>
+        </div>
+
+        <!-- SAĞ: FORM -->
+        <div>
+          <div style="background:var(--gri-acik);padding:36px;border-top:4px solid var(--kirmizi);">
+            <h3 style="font-family:var(--font-baslik);font-size:22px;text-transform:uppercase;margin-bottom:6px;">Mesaj Gönderin</h3>
+            <p style="font-size:13px;color:var(--gri-orta);margin-bottom:28px;">Formu doldurun, en kısa sürede size dönelim.</p>
+
+            <form id="iletisim-form" novalidate>
+
+              <div class="form-satir">
+                <div class="form-grup">
+                  <label for="ad-soyad">Ad Soyad *</label>
+                  <input type="text" id="ad-soyad" name="ad-soyad" placeholder="Adınız ve soyadınız" />
+                  <span class="hata-mesaj" id="ad-soyad-hata">Lütfen en az 3 karakter giriniz.</span>
+                </div>
+                <div class="form-grup">
+                  <label for="telefon">Telefon</label>
+                  <input type="tel" id="telefon" name="telefon" placeholder="+90 5XX XXX XX XX" />
+                </div>
+              </div>
+
+              <div class="form-grup">
+                <label for="eposta">E-posta Adresi *</label>
+                <input type="email" id="eposta" name="eposta" placeholder="ornek@email.com" />
+                <span class="hata-mesaj" id="eposta-hata">Geçerli bir e-posta adresi giriniz.</span>
+              </div>
+
+              <div class="form-grup">
+                <label for="konu">Konu</label>
+                <select id="konu" name="konu">
+                  <option value="">Konu Seçiniz</option>
+                  <option value="urun">Ürün Bilgisi</option>
+                  <option value="bayi">Bayilik Başvurusu</option>
+                  <option value="servis">Servis & Yedek Parça</option>
+                  <option value="yatirimci">Yatırımcı İlişkileri</option>
+                  <option value="diger">Diğer</option>
+                </select>
+              </div>
+
+              <div class="form-grup">
+                <label for="mesaj">Mesajınız *</label>
+                <textarea id="mesaj" name="mesaj" placeholder="Mesajınızı buraya yazınız..."></textarea>
+                <span class="hata-mesaj" id="mesaj-hata">Lütfen en az 10 karakter mesaj giriniz.</span>
+              </div>
+
+              <button type="submit" class="btn-primary" style="width:100%;justify-content:center;cursor:pointer;border:none;font-size:14px;">
+                Gönder →
+              </button>
+
+              <div class="basari-mesaj" id="basari-mesaj">
+                ✅ Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BAYLER BÖLÜMÜ -->
+  <section class="bolum bolum-gri">
+    <div class="container">
+      <div class="bolum-baslik merkez">
+        <span class="ust-etiket">Yakınınızdaki Bayi</span>
+        <h2>Yetkili Bayi Ağımız</h2>
+        <p>Türkiye genelinde 400'ü aşkın yetkili bayimizden birinde bizi ziyaret edin.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;">
+        <div style="background:var(--beyaz);padding:24px;border:1px solid var(--gri-border);">
+          <div style="font-size:24px;margin-bottom:10px;">📍</div>
+          <h4 style="font-family:var(--font-baslik);font-size:15px;text-transform:uppercase;margin-bottom:4px;">İç Anadolu</h4>
+          <p style="font-size:13px;color:var(--gri-orta);">Ankara, Konya, Kayseri, Eskişehir, Sivas</p>
+          <span style="font-size:12px;color:var(--kirmizi);font-weight:700;">87 Bayi</span>
+        </div>
+        <div style="background:var(--beyaz);padding:24px;border:1px solid var(--gri-border);">
+          <div style="font-size:24px;margin-bottom:10px;">📍</div>
+          <h4 style="font-family:var(--font-baslik);font-size:15px;text-transform:uppercase;margin-bottom:4px;">Ege</h4>
+          <p style="font-size:13px;color:var(--gri-orta);">İzmir, Manisa, Denizli, Aydın, Muğla</p>
+          <span style="font-size:12px;color:var(--kirmizi);font-weight:700;">72 Bayi</span>
+        </div>
+        <div style="background:var(--beyaz);padding:24px;border:1px solid var(--gri-border);">
+          <div style="font-size:24px;margin-bottom:10px;">📍</div>
+          <h4 style="font-family:var(--font-baslik);font-size:15px;text-transform:uppercase;margin-bottom:4px;">Akdeniz</h4>
+          <p style="font-size:13px;color:var(--gri-orta);">Antalya, Adana, Mersin, Hatay</p>
+          <span style="font-size:12px;color:var(--kirmizi);font-weight:700;">64 Bayi</span>
+        </div>
+        <div style="background:var(--beyaz);padding:24px;border:1px solid var(--gri-border);">
+          <div style="font-size:24px;margin-bottom:10px;">📍</div>
+          <h4 style="font-family:var(--font-baslik);font-size:15px;text-transform:uppercase;margin-bottom:4px;">Karadeniz</h4>
+          <p style="font-size:13px;color:var(--gri-orta);">Samsun, Trabzon, Ordu, Giresun</p>
+          <span style="font-size:12px;color:var(--kirmizi);font-weight:700;">58 Bayi</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo footer-logo">
+            <div class="logo-icon">TT</div>
+            <div class="logo-text"><span class="ust">Türk Traktör</span><span class="alt" style="color:#555">ve Ziraat Makinaları A.Ş.</span></div>
+          </a>
+          <p class="footer-aciklama">1954'ten bu yana Türkiye tarımının güvenilir gücü.</p>
+          <div class="footer-sosyal">
+            <a href="#" class="sosyal-btn">in</a><a href="#" class="sosyal-btn">fb</a><a href="#" class="sosyal-btn">tw</a><a href="#" class="sosyal-btn">yt</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-baslik">Hızlı Linkler</div>
+          <ul class="footer-linkler">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="urunler.html">Ürünler</a></li>
+            <li><a href="kurumsal.html">Kurumsal</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-baslik">Ürünler</div>
+          <ul class="footer-linkler">
+            <li><a href="urunler.html">Küçük Sınıf</a></li>
+            <li><a href="urunler.html">Orta Sınıf</a></li>
+            <li><a href="urunler.html">Büyük Sınıf</a></li>
+            <li><a href="urunler.html">Case IH</a></li>
+            <li><a href="urunler.html">New Holland</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-baslik">İletişim</div>
+          <ul class="footer-iletisim">
+            <li><span>📍</span><span>Kazan OSB, Ankara</span></li>
+            <li><span>📞</span><span>+90 (312) 812 10 00</span></li>
+            <li><span>✉</span><span>info@turktraktor.com.tr</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-alt">
+        <p>© 2025 Türk Traktör ve Ziraat Makinaları A.Ş. <em style="color:#444;font-size:11px;">(Eğitim amaçlıdır.)</em></p>
+        <div class="footer-alt-linkler"><a href="#">Gizlilik</a><a href="#">Çerez</a><a href="#">KVKK</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
